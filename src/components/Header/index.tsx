@@ -2,8 +2,12 @@ import Link from "next/link";
 
 export function Header() {
     return (
-        <header className="flex justify-between px-4 pt-4">
-            <h1 className="uppercase text-lg font-semibold">Live Sky</h1>
+        <header className="flex justify-between px-4 py-4 items-center bg-slate-50">
+            <h1 className="uppercase text-lg font-semibold">
+                <Link href={'/'}>
+                Live Sky
+                </Link>
+            </h1>
 
             <form>
                 <input placeholder="Pesquisar" type="text" className="border w-96 border-sky-5 px-8 p-2 rounded-full outline-0" />

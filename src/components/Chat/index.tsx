@@ -45,7 +45,7 @@ export function Chat() {
 
         <form onSubmit={handleSubmitComment} className="flex gap-2">
           <input placeholder="Envie uma mensagem" type="text" className="rounded px-4 py-2 w-full"/>
-          <button title="Enviar mensagem" className="rounded bg-cyan-500 text-white px-4 py-2">Enviar</button>
+          <button title="Enviar mensagem" className="rounded bg-cyan-500 text-white px-4 py-2 font-semibold">Enviar</button>
         </form>
       </div>
     )
